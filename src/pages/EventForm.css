@@ -1,0 +1,31 @@
+.react-datepicker {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.react-datepicker__header {
+  background-color: #2e9a83;
+  color: #fff;
+}
+
+.react-datepicker__day-name {
+  color: #fff;
+}
+
+.react-datepicker__day {
+  color: #333;
+}
+
+.react-datepicker__day--selected {
+  background-color: #2e9a83;
+  color: #fff;
+}
+
+.react-datepicker-time__input {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.react-datepicker__time-container {
+  font-size: 13px;
+}

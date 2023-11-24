@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  functions = "lambda"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/json-server"
+  status = 200
